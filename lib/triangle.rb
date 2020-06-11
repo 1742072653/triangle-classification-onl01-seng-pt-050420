@@ -14,9 +14,9 @@ class Triangle
     else
       if (@side1 == @side2) && (@side2 == @side3)
         :equilateral
-      if (@side1 == @side2) || (@side1 == @side3) || (@side2 == @side3)
+      elsif (@side1 == @side2) || (@side1 == @side3) || (@side2 == @side3)
         :isosceles
-      if ()
+      elsif ()
     
   end
 end
