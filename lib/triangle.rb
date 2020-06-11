@@ -10,12 +10,10 @@ def kind
   if (@side1 <= 0 ) || (@side2 <= 0 ) || (@side3 <= 0 )
 end
 
-class Triangle
 
- 
-  class TriangleError < StandardError
+class TriangleError < StandardError
     
-  end
+ end
 
   
   
