@@ -12,7 +12,11 @@ class Triangle
     elsif (@side1 + @side2 <= @side3) || (@side1 + @side3 <= @side2 ) || (@side2 + @sode3 <= @side1 )
       raise TriangleError
     else
-      
+      if (@side1 == @side2) && (@side2 == @side3)
+        :equilateral
+      if (@side1 == @side2) || (@side1 == @side3) || (@side2 == @side3)
+        :isosceles
+      if ()
     
   end
 end
